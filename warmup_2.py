@@ -83,14 +83,14 @@
 # print(array123([1, 1, 2, 4, 1]))
 
 
-9
-def string_match(a,b):
-    count = 0
-    for i in range(len(a)-1):
-        if a[i:i+2] == b[i:i+2]:
-            count += 1
-    return count
+# 9
+# def string_match(a,b):
+#     count = 0
+#     for i in range(len(a)-1):
+#         if a[i:i+2] == b[i:i+2]:
+#             count += 1
+#     return count
 
-print(string_match('xxcaazz', 'xxbaaz'))
-print(string_match('abc', 'abc'))
-print(string_match('abc', 'axc'))
+# print(string_match('xxcaazz', 'xxbaaz'))
+# print(string_match('abc', 'abc'))
+# print(string_match('abc', 'axc'))
