@@ -98,10 +98,10 @@
 # print(in1to10(11, True))
 
 
-9
-def near_ten(num):
-    return num%10 <=2 or num%10 == 8 or num%10 == 9
+# 9
+# def near_ten(num):
+#     return num%10 <=2 or num%10 == 8 or num%10 == 9
     
-print(near_ten(12))
-print(near_ten(17))
-print(near_ten(19))
+# print(near_ten(12))
+# print(near_ten(17))
+# print(near_ten(19))
