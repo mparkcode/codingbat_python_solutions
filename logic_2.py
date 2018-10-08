@@ -78,16 +78,16 @@
 # print(close_far(4, 1, 3))
 
 
-7
-def make_chocolate(small,big,goal):
-    if big*5 >= goal:
-        return goal%5 if goal%5 <=small else -1
-    elif big*5 + small >= goal:
-        return goal - big*5
-    else:
-        return -1
+# 7
+# def make_chocolate(small,big,goal):
+#     if big*5 >= goal:
+#         return goal%5 if goal%5 <=small else -1
+#     elif big*5 + small >= goal:
+#         return goal - big*5
+#     else:
+#         return -1
         
         
-print(make_chocolate(4, 1, 9))
-print(make_chocolate(4, 1, 10))
-print(make_chocolate(4, 1, 7))
+# print(make_chocolate(4, 1, 9))
+# print(make_chocolate(4, 1, 10))
+# print(make_chocolate(4, 1, 7))
