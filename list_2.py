@@ -42,6 +42,14 @@ def sum13(nums):
         if nums[i+1] and nums[i+1] != 13:
             nl.append(nums[i+1])
     return sum(nl)
+    
+def sum13(nums):
+    nums.append(0)
+    for i in range(len(nums)):
+        if nums[i] == 13:
+            nums[i] = 0
+            nums[i+1] = 0
+    return sum(nums)
 
 print(sum13([1, 2, 2, 1]))
 print(sum13([1, 1]))
